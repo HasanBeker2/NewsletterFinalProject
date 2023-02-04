@@ -16,6 +16,7 @@ const App = () => {
           component={WelcomeScreen}
           options={{ title: 'Welcome' }}
         />
+        
         <Stack.Screen name="Subscribe" component={SubscribeScreen} />
       </Stack.Navigator>
     </NavigationContainer>
